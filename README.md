@@ -1,4 +1,4 @@
-# gdsfactory README
+# gdsfactory VScode plugin
 
 ## Features
 
@@ -7,14 +7,10 @@
     - run circuit simulation
     - lint
 
+## TODO
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- [ ] add schema valdation, and autocomplete for .ic.yaml
+- [ ] add button to show it in klayout, similiar to `gf yaml ide` webapp from [gdsfactory](https://github.com/gdsfactory/gdsfactory/tree/master/gdsfactory/icyaml)
+- [ ] add button to show networkx netlist connectivity graph
+- [ ] add buttom to simulate netlist in circuit simulator sax / simphony / opics
+- [ ] add scema for .placer.yaml
