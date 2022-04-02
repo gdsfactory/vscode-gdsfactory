@@ -1,4 +1,4 @@
-# vscode-gdsfactory README
+# gdsfactory README
 
 ## Features
 
