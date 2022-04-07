@@ -59,6 +59,9 @@ definitions:
       settings:
         title: Settings
         type: object
+      pack:
+        title: Pack
+        type: object
     required:
     - component
     additionalProperties: false
@@ -75,6 +78,26 @@ definitions:
       'y':
         title: 'Y'
         default: 0
+        anyOf:
+        - type: string
+        - type: number
+      xmin:
+        title: Xmin
+        anyOf:
+        - type: string
+        - type: number
+      ymin:
+        title: Ymin
+        anyOf:
+        - type: string
+        - type: number
+      xmax:
+        title: Xmax
+        anyOf:
+        - type: string
+        - type: number
+      ymax:
+        title: Ymax
         anyOf:
         - type: string
         - type: number
