@@ -9,12 +9,18 @@ export function activate(context: vscode.ExtensionContext) {
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
 
-	let yaml_run = vscode.commands.registerCommand('gdsfactory.yaml_run', async () => {
-        let command = "gf yaml build /home/jmatres/ubc/ubcpdk/circuits/mask.ic.yaml";
+	let yamlRun = vscode.commands.registerCommand('gdsfactory.yamlRun', async () => {
+		if (!vscode.window.activeTextEditor) {
+					return; // no editor
+				}
+		let document = vscode.window.activeTextEditor.document;
+        let filepath = document.fileName;
+        let command = "gf yaml build " + filepath;
+		console.log(command);
         shell.exec(command, { async: true }, async function (code:number, stdout:string, stderr:string) {
             console.log("Exec gdsfactory");
 			 if (code === 0) {
-				vscode.window.showInformationMessage('Error!');
+				vscode.window.showInformationMessage('show file in klayout!');
 
             }
             else {
@@ -24,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
         });
     });
 
-	context.subscriptions.push(yaml_run);
+	context.subscriptions.push(yamlRun);
 
 	let disposable = vscode.commands.registerCommand('gdsfactory.helloWorld', () => {
 		// The code you place here will be executed every time your command is executed
