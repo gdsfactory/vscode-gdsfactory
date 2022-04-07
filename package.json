@@ -22,7 +22,38 @@
       },
       {
         "command": "gdsfactory.yamlRun",
-        "title": "send YAML to klayout"
+        "title": "send YAML to klayout",
+        "icon": {
+          "light": "resources/light/run.svg",
+          "dark": "resources/dark/run.svg"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "id": "icyaml",
+        "aliases": [
+          "iycaml"
+        ],
+        "extensions": [
+          ".ic.yaml"
+        ]
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "when": "resourceLangId == icyaml",
+          "command": "gdsfactory.yamlRun",
+          "group": "navigation"
+        }
+      ]
+    },
+    "grammars": [
+      {
+        "language": "icyaml",
+        "scopeName": "source.yaml",
+        "path": "./syntaxes/yaml.tmLanguage.json"
       }
     ]
   },
