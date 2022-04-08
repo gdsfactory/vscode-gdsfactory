@@ -1,98 +1,104 @@
 {
-  "name": "gdsfactory",
-  "displayName": "gdsfactory",
-  "description": "gdsfactory plugin for vscode",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.65.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:gdsfactory.helloWorld",
-    "onCommand:gdsfactory.yamlRun"
-  ],
-  "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "gdsfactory.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "gdsfactory.yamlRun",
-        "title": "send YAML to klayout",
-        "icon": {
-          "light": "resources/light/run.svg",
-          "dark": "resources/dark/run.svg"
-        }
-      }
+    "name": "gdsfactory",
+    "displayName": "gdsfactory",
+    "description": "gdsfactory plugin for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Other"
     ],
-    "languages": [
-      {
-        "id": "icyaml",
-        "aliases": [
-          "iycaml"
+    "activationEvents": [
+        "onCommand:gdsfactory.helloWorld",
+        "onCommand:gdsfactory.yamlRun"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "gdsfactory.helloWorld",
+                "title": "Hello World"
+            },
+            {
+                "command": "gdsfactory.yamlRun",
+                "title": "send YAML to klayout",
+                "icon": {
+                    "light": "resources/light/run.svg",
+                    "dark": "resources/dark/run.svg"
+                }
+            }
         ],
-        "extensions": [
-          ".ic.yaml"
+        "languages": [
+            {
+                "id": "icyaml",
+                "aliases": [
+                    "iycaml"
+                ],
+                "extensions": [
+                    ".ic.yaml"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "icyaml",
+                "path": "./snippets/yaml/snippet.json"
+            }
+        ],
+        "menus": {
+            "editor/title": [
+                {
+                    "when": "resourceLangId == icyaml",
+                    "command": "gdsfactory.yamlRun",
+                    "group": "navigation"
+                }
+            ]
+        },
+        "grammars": [
+            {
+                "language": "icyaml",
+                "scopeName": "source.yaml",
+                "path": "./syntaxes/yaml.tmLanguage.json"
+            }
         ]
-      }
-    ],
-    "menus": {
-      "editor/title": [
+    },
+    "yamlValidation": [
         {
-          "when": "resourceLangId == icyaml",
-          "command": "gdsfactory.yamlRun",
-          "group": "navigation"
+            "fileMatch": ".condarc",
+            "url": "./schemas/condarc.json"
+        },
+        {
+            "fileMatch": "environment.yml",
+            "url": "./schemas/conda-environment.json"
+        },
+        {
+            "extension": ".ic.yaml",
+            "url": "./schemas/netlist.json"
         }
-      ]
+    ],
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js"
     },
-    "grammars": [
-      {
-        "language": "icyaml",
-        "scopeName": "source.yaml",
-        "path": "./syntaxes/yaml.tmLanguage.json"
-      }
-    ]
-  },
-  "yamlValidation": [
-    {
-      "fileMatch": ".condarc",
-      "url": "./schemas/condarc.json"
+    "dependencies": {
+        "shelljs": "^0.8.5"
     },
-    {
-      "fileMatch": "environment.yml",
-      "url": "./schemas/conda-environment.json"
-    },
-    {
-      "extension": ".ic.yaml",
-      "url": "./schemas/netlist.json"
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "14.x",
+        "@types/vscode": "^1.66.0",
+        "@typescript-eslint/eslint-plugin": "^5.16.0",
+        "@typescript-eslint/parser": "^5.16.0",
+        "@vscode/test-electron": "^2.1.3",
+        "eslint": "^8.11.0",
+        "glob": "^7.2.0",
+        "mocha": "^9.2.2",
+        "typescript": "^4.5.5"
     }
-  ],
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
-  },
-  "dependencies": {
-    "shelljs": "^0.8.5"
-  },
-  "devDependencies": {
-    "@types/glob": "^7.2.0",
-    "@types/mocha": "^9.1.0",
-    "@types/node": "14.x",
-    "@types/vscode": "^1.66.0",
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0",
-    "@vscode/test-electron": "^2.1.3",
-    "eslint": "^8.11.0",
-    "glob": "^7.2.0",
-    "mocha": "^9.2.2",
-    "typescript": "^4.5.5"
-  }
 }
