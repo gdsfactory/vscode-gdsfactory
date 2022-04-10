@@ -7,9 +7,21 @@
     "engines": {
         "vscode": "^1.66.0"
     },
-    "categories": [
-        "Other"
+    "keywords": [
+        "gds",
+        "gdsii",
+        "netlist",
+        "photonics",
+        "asic"
     ],
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Formatters",
+        "Linters"
+    ],
+    "icon": "resources/images/icon_128_128_square.png",
+    "homepage": "https://gdsfactory.github.io/gdsfactory/",
     "activationEvents": [
         "onCommand:gdsfactory.helloWorld",
         "onCommand:gdsfactory.yamlRun"
