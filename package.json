@@ -4,7 +4,7 @@
     "description": "gdsfactory plugin for vscode",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.64.0"
+        "vscode": "^1.66.0"
     },
     "categories": [
         "Other"
@@ -15,8 +15,7 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [
-            {
+        "commands": [{
                 "command": "gdsfactory.helloWorld",
                 "title": "Hello World"
             },
@@ -29,42 +28,33 @@
                 }
             }
         ],
-        "languages": [
-            {
-                "id": "icyaml",
-                "aliases": [
-                    "iycaml"
-                ],
-                "extensions": [
-                    ".ic.yaml"
-                ]
-            }
-        ],
-        "snippets": [
-            {
-                "language": "icyaml",
-                "path": "./snippets/yaml/snippet.json"
-            }
-        ],
-        "menus": {
-            "editor/title": [
-                {
-                    "when": "resourceLangId == icyaml",
-                    "command": "gdsfactory.yamlRun",
-                    "group": "navigation"
-                }
+        "languages": [{
+            "id": "icyaml",
+            "aliases": [
+                "iycaml"
+            ],
+            "extensions": [
+                ".ic.yaml"
             ]
+        }],
+        "snippets": [{
+            "language": "icyaml",
+            "path": "./snippets/yaml/snippet.json"
+        }],
+        "menus": {
+            "editor/title": [{
+                "when": "resourceLangId == icyaml",
+                "command": "gdsfactory.yamlRun",
+                "group": "navigation"
+            }]
         },
-        "grammars": [
-            {
-                "language": "icyaml",
-                "scopeName": "source.yaml",
-                "path": "./syntaxes/yaml.tmLanguage.json"
-            }
-        ]
+        "grammars": [{
+            "language": "icyaml",
+            "scopeName": "source.yaml",
+            "path": "./syntaxes/yaml.tmLanguage.json"
+        }]
     },
-    "yamlValidation": [
-        {
+    "yamlValidation": [{
             "fileMatch": ".condarc",
             "url": "./schemas/condarc.json"
         },
