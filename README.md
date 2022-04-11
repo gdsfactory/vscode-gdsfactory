@@ -4,7 +4,10 @@
 [![Install Count](https://img.shields.io/visual-studio-marketplace/i/gdsfactory.gdsfactory.svg)](https://marketplace.visualstudio.com/items?itemName=gdsfactory.gdsfactory)
 [![Download Count](https://img.shields.io/visual-studio-marketplace/d/gdsfactory.gdsfactory.svg)](https://marketplace.visualstudio.com/items?itemName=gdsfactory.gdsfactory)
 
-![gdsfactory](./resources/images/low_res_banner.png)
+![](https://i.imgur.com/v4wpHpg.png)
+
+
+![](https://i.imgur.com/XbhWJDz.png)
 
 
 ## Features
