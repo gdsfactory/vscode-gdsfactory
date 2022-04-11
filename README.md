@@ -1,4 +1,4 @@
-# gdsfactory VScode plugin 0.0.2
+# gdsfactory VScode plugin 0.0.3
 
 [![Current Version](https://img.shields.io/visual-studio-marketplace/v/gdsfactory.gdsfactory.svg)](https://marketplace.visualstudio.com/items?itemName=gdsfactory.gdsfactory)
 [![Install Count](https://img.shields.io/visual-studio-marketplace/i/gdsfactory.gdsfactory.svg)](https://marketplace.visualstudio.com/items?itemName=gdsfactory.gdsfactory)
