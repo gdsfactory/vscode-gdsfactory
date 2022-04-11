@@ -3486,7 +3486,30 @@
   "import_gdsfactory": {
     "prefix": "importg",
     "body": "import gdsfactory as gf",
-    "description": "import gdsfactory module"
+    "description": "import gdsfactory"
+  },
+  "import_gdsfactory": {
+    "prefix": "igf",
+    "body": "import gdsfactory as gf",
+    "description": "import gdsfactory"
+  },
+  "gfcell": {
+    "prefix": "@gf=>",
+    "body": [
+      "@gf.cell",
+      "def ${1:<name>}()->gf.Component:",
+      "  c = gf.Component()",
+      "  return c"
+    ],
+    "description": "new gdsfactory component factory"
+  },
+  "ifmain": {
+    "prefix": "ifmain",
+    "body": [
+      "if __name__ == '__main__':",
+      "  "
+    ],
+    "description": "top level main module"
   },
   "tryexcept": {
     "prefix": "trye=>",
