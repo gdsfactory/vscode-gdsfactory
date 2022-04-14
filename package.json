@@ -34,8 +34,8 @@
     "languages": [
       {
         "id": "icyaml",
-        "aliases": ["iycaml"],
-        "extensions": [".ic.yaml"]
+        "aliases": ["icyaml"],
+        "extensions": [".pic.yml"]
       }
     ],
     "snippets": [

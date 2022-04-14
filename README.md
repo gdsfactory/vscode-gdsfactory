@@ -10,14 +10,20 @@
 ![](https://i.imgur.com/XbhWJDz.png)
 
 
+This extension is available to install from VScode extensions marketplace.
+
+![](https://i.imgur.com/89OPCQ1.png)
+
+
+
 ## Features
 
-- ic.yaml netlist syntax highlight
-  - build GDS and show it in klayout
+- pic.yml netlist syntax highlight
+  - includes play button to build GDS and show it in klayout
 
 ## TODO
 
-- ic.yaml netlist syntax highlight
+- pic.yaml netlist syntax highlight
 
   - run circuit simulation
   - lint
