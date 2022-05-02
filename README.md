@@ -23,16 +23,15 @@ This extension is available to install from VScode extensions marketplace.
 
 ## TODO
 
-- pic.yaml netlist syntax highlight
+- pic.yml netlist syntax highlight
 
   - run circuit simulation
   - lint
 
-- add schema valdation, and autocomplete for .ic.yaml
+- add schema valdation, and autocomplete for .ic.yml
 - add button to show networkx netlist connectivity graph
 - add buttom to simulate netlist in circuit simulator sax / simphony / opics
-- add scema for .placer.yaml
 
 ## DONE
 
-- [ ] add button to show it in klayout, similiar to `gf yaml ide` webapp from [gdsfactory](https://github.com/gdsfactory/gdsfactory/tree/master/gdsfactory/icyaml)
+- [ ] add button to show it in klayout, similiar to `gf yaml watch` from gdsfactory
