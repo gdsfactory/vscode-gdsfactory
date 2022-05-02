@@ -1,5 +1,6 @@
 patch:
 	bumpversion patch
-	git push origin --tags
+	git push 
+	git push --tags
 
 .PHONY: patch
