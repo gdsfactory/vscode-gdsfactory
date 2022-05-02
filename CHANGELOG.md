@@ -1,5 +1,9 @@
 # [CHANGELOG](http://keepachangelog.com/)
 
+## [0.0.5]
+
+- new filewatcher
+
 ## [0.0.3]
 
 - change netlist extension from .ic.yaml to .pic.yml

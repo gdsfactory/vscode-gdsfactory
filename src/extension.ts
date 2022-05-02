@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
 				}
 		let document = vscode.window.activeTextEditor.document;
         let filepath = document.fileName;
-        let command = "gf yaml build " + filepath;
+        let command = "gf yaml watch " + filepath;
 		console.log(command);
         shell.exec(command, { async: true }, async function (code:number, stdout:string, stderr:string) {
             console.log("Exec gdsfactory");
