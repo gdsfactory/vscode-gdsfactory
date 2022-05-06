@@ -28,9 +28,9 @@ This extension is available to install from VScode extensions marketplace.
   - run circuit simulation
   - lint
 
-- add schema valdation, and autocomplete for .ic.yml
+- add schema valdation, and autocomplete for .pic.yml circuits
 - add button to show networkx netlist connectivity graph
-- add buttom to simulate netlist in circuit simulator sax / simphony / opics
+- add buttom to simulate netlist in circuit simulator sax / simphony 
 
 ## DONE
 
