@@ -12,6 +12,7 @@
   "icon": "resources/images/icon_128_128_square.png",
   "homepage": "https://gdsfactory.github.io/gdsfactory/",
   "activationEvents": [
+    "onLanguage:picyml",
     "onCommand:gdsfactory.helloWorld",
     "onCommand:gdsfactory.yamlRun"
   ],
@@ -24,7 +25,7 @@
       },
       {
         "command": "gdsfactory.yamlRun",
-        "title": "send YAML to klayout",
+        "title": "live update YAML files in klayout",
         "icon": {
           "light": "resources/light/run.svg",
           "dark": "resources/dark/run.svg"
@@ -33,14 +34,14 @@
     ],
     "languages": [
       {
-        "id": "icyaml",
-        "aliases": ["icyaml"],
+        "id": "picyml",
+        "aliases": ["picyml"],
         "extensions": [".pic.yml"]
       }
     ],
     "snippets": [
       {
-        "language": "icyaml",
+        "language": "picyml",
         "path": "./snippets/yaml/snippet.json"
       },
       {
@@ -51,7 +52,7 @@
     "menus": {
       "editor/title": [
         {
-          "when": "resourceLangId == icyaml",
+          "when": "resourceLangId == picyml",
           "command": "gdsfactory.yamlRun",
           "group": "navigation"
         }
@@ -59,7 +60,7 @@
     },
     "grammars": [
       {
-        "language": "icyaml",
+        "language": "picyml",
         "scopeName": "source.yaml",
         "path": "./syntaxes/yaml.tmLanguage.json"
       }
@@ -75,7 +76,7 @@
       "url": "./schemas/conda-environment.json"
     },
     {
-      "extension": ".ic.yaml",
+      "language": "picyml",
       "url": "./schemas/netlist.json"
     }
   ],
