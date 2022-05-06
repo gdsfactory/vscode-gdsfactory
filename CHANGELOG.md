@@ -1,21 +1,25 @@
 # [CHANGELOG](http://keepachangelog.com/)
 
-## [0.0.5]
+## [0.0.6](https://github.com/gdsfactory/vscode-gdsfactory/pull/3)
+
+- update netlist JSON schema
+
+## 0.0.5
 
 - new filewatcher
 
-## [0.0.3]
+## 0.0.3
 
 - change netlist extension from .ic.yaml to .pic.yml
 
-## [0.0.3]
+## 0.0.3
 
 - add python snippets
 
-## [0.0.2]
+## 0.0.2
 
 - add logo
 
-## [0.0.1]
+## 0.0.1
 
 - Initial release
