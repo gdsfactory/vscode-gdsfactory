@@ -20,7 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
         shell.exec(command, { async: true }, async function (code:number, stdout:string, stderr:string) {
             console.log("Exec gdsfactory");
 			 if (code === 0) {
-				vscode.window.showInformationMessage('show file in klayout!');
+				vscode.window.showInformationMessage('watch folder and show changes in klayout!');
 
             }
             else {
