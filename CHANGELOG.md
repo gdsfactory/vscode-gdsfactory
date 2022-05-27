@@ -1,5 +1,9 @@
 # [CHANGELOG](http://keepachangelog.com/)
 
+## 0.0.7
+
+- works with VScode 1.50 and larger
+
 ## [0.0.6](https://github.com/gdsfactory/vscode-gdsfactory/pull/3)
 
 - update netlist JSON schema
