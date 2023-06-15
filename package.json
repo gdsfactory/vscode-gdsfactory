@@ -89,7 +89,9 @@
     "test": "node ./out/test/runTest.js"
   },
   "dependencies": {
-    "shelljs": ">=0.8.5"
+    "shelljs": ">=0.8.5",
+    "ms-toolsai.jupyter-renderers": ">=0.0.0",
+    "congyiwu.vscode-jupytext": ">=0.0.0"
   },
   "devDependencies": {
     "@types/glob": ">=7.2.0",
