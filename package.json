@@ -91,7 +91,7 @@
   "dependencies": {
     "shelljs": ">=0.8.5",
     "ms-toolsai.jupyter-renderers": ">=0.0.0",
-    "congyiwu.vscode-jupytext": ">=0.0.0"
+    "congyiwu.vscode-jupytext": ">=0.1.2"
   },
   "devDependencies": {
     "@types/glob": ">=7.2.0",
