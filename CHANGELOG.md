@@ -1,5 +1,9 @@
 # [CHANGELOG](http://keepachangelog.com/)
 
+## 0.1.0
+
+- add filewatcher for python with a nice telescope icon that will watch for any `*.py` or `*.pic.yml` files.
+
 ## 0.0.8
 
 - works with VScode 1.50 and larger
