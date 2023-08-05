@@ -29,10 +29,10 @@
     "commands": [
       {
         "command": "gdsfactory.watch",
-        "title": "live update YAML files in klayout",
+        "title": "watch .py and .pic.yml files",
         "icon": {
-          "light": "resources/light/run.svg",
-          "dark": "resources/dark/run.svg"
+          "light": "resources/light/telescope.svg",
+          "dark": "resources/dark/telescope.svg"
         }
       }
     ],
