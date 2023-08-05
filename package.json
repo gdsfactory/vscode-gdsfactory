@@ -86,12 +86,6 @@
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
-  "dependencies": {
-    "shelljs": ">=0.8.5",
-    "ms-toolsai.jupyter-renderers": ">=0.0.0",
-    "congyiwu.vscode-jupytext": ">=0.1.2",
-    "ms-python.python": ">=2021.10.1365161279"
-  },
   "devDependencies": {
     "@types/glob": ">=7.2.0",
     "@types/mocha": ">=9.1.0",
@@ -104,5 +98,9 @@
     "glob": ">=7.2.0",
     "mocha": ">=9.2.2",
     "typescript": ">=4.5.5"
-  }
+  },
+  "extensionDependencies": [
+    "ms-toolsai.jupyter",
+    "ms-python.python"
+  ]
 }
