@@ -7,8 +7,18 @@
   "engines": {
     "vscode": ">=1.50.0"
   },
-  "keywords": ["gds", "gdsii", "netlist", "photonics", "asic"],
-  "categories": ["Programming Languages", "Snippets", "Formatters", "Linters"],
+  "keywords": [
+    "gds",
+    "gdsii",
+    "netlist",
+    "asic"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Formatters",
+    "Linters"
+  ],
   "icon": "resources/images/icon_128_128_square.png",
   "homepage": "https://gdsfactory.github.io/gdsfactory/",
   "activationEvents": [
@@ -18,11 +28,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "gdsfactory.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "gdsfactory.yamlRun",
+        "command": "gdsfactory.watch",
         "title": "live update YAML files in klayout",
         "icon": {
           "light": "resources/light/run.svg",
@@ -33,8 +39,12 @@
     "languages": [
       {
         "id": "picyml",
-        "aliases": ["picyml"],
-        "extensions": [".pic.yml"]
+        "aliases": [
+          "picyml"
+        ],
+        "extensions": [
+          ".pic.yml"
+        ]
       }
     ],
     "snippets": [
@@ -50,9 +60,9 @@
     "menus": {
       "editor/title": [
         {
-          "when": "resourceLangId == picyml",
-          "command": "gdsfactory.yamlRun",
-          "group": "navigation"
+            "when": "resourceLangId == python || resourceLangId == picyml",
+            "command": "gdsfactory.watch",
+            "group": "navigation"
         }
       ]
     },
@@ -89,7 +99,7 @@
   "devDependencies": {
     "@types/glob": ">=7.2.0",
     "@types/mocha": ">=9.1.0",
-    "@types/node": ">=14.x",
+    "@types/node": "^20.4.8",
     "@types/vscode": ">=1.50.0",
     "@typescript-eslint/eslint-plugin": ">=5.16.0",
     "@typescript-eslint/parser": ">=5.16.0",
