@@ -12,9 +12,7 @@
   "icon": "resources/images/icon_128_128_square.png",
   "homepage": "https://gdsfactory.github.io/gdsfactory/",
   "activationEvents": [
-    "onLanguage:picyml",
-    "onCommand:gdsfactory.helloWorld",
-    "onCommand:gdsfactory.yamlRun"
+    "onLanguage:picyml"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -91,7 +89,8 @@
   "dependencies": {
     "shelljs": ">=0.8.5",
     "ms-toolsai.jupyter-renderers": ">=0.0.0",
-    "congyiwu.vscode-jupytext": ">=0.1.2"
+    "congyiwu.vscode-jupytext": ">=0.1.2",
+    "ms-python.python": ">=2021.10.1365161279"
   },
   "devDependencies": {
     "@types/glob": ">=7.2.0",
