@@ -111,6 +111,7 @@
   },
   "extensionDependencies": [
     "ms-toolsai.jupyter",
+    "congyiwu.vscode-jupytext",
     "ms-python.python",
     "redhat.vscode-yaml"
   ]

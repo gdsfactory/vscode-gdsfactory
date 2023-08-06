@@ -15,23 +15,13 @@ This extension is available to install from VScode extensions marketplace.
 ![](https://i.imgur.com/89OPCQ1.png)
 
 
-
 ## Features
 
-- pic.yml netlist syntax highlight
-  - includes play button to build GDS and show it in klayout
+- .pic.yml and .py file watcher
+- YAML schema
+- Installs other useful extensions for gdsfactory
+    - Python
+    - jupytext
+    - jupyter notebooks
+    - YAML
 
-## TODO
-
-- pic.yml netlist syntax highlight
-
-  - run circuit simulation
-  - lint
-
-- add schema valdation, and autocomplete for .pic.yml circuits
-- add button to show networkx netlist connectivity graph
-- add buttom to simulate netlist in circuit simulator sax / simphony 
-
-## DONE
-
-- [ ] add button to show it in klayout, similiar to `gf yaml watch` from gdsfactory
