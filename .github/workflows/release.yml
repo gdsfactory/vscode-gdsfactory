@@ -15,7 +15,7 @@ jobs:
       - name: Build 
         id: build
         run: |
-          npm install -g vsce
+          npm install -g @vscode/vsc
           npm install
           vsce package --no-rewrite-relative-links
           now=`date +"%Y-%m-%d__%H:%M"`
