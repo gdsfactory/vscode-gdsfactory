@@ -3,7 +3,7 @@
   "displayName": "gdsfactory",
   "description": "gdsfactory plugin for vscode",
   "publisher": "gdsfactory",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": ">=1.50.0"
   },
