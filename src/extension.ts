@@ -13,7 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
         
         let terminal = vscode.window.createTerminal("gdsfactory");
         terminal.show();
-        terminal.sendText(`gf watch ${dirPath}`);
+        terminal.sendText(`gf watch --path ${dirPath}`);
     });
 
     context.subscriptions.push(disposable);
