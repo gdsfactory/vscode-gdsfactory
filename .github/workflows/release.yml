@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Build 
+      - name: Build
         id: build
         run: |
           npm install -g @vscode/vsce

@@ -11,7 +11,11 @@
     "gds",
     "gdsii",
     "netlist",
-    "asic"
+    "asic",
+    "design",
+    "layout",
+    "vscode-extension",
+    "circuit"
   ],
   "categories": [
     "Programming Languages",
@@ -24,12 +28,21 @@
   "activationEvents": [
     "onLanguage:picyml"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdsfactory/gdsfactory-vscode-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/gdsfactory/gdsfactory-vscode-extension/issues"
+  },
+  "license": "MIT",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "gdsfactory.watch",
         "title": "watch .py and .pic.yml files",
+        "tooltip": "Automatically watch changes in .py and .pic.yml files of GDSFactory.",
         "icon": {
           "light": "resources/light/telescope.svg",
           "dark": "resources/dark/telescope.svg"
@@ -60,9 +73,9 @@
     "menus": {
       "editor/title": [
         {
-            "when": "resourceLangId == python || resourceLangId == picyml",
-            "command": "gdsfactory.watch",
-            "group": "navigation"
+          "when": "resourceLangId == python || resourceLangId == picyml",
+          "command": "gdsfactory.watch",
+          "group": "navigation"
         }
       ]
     },

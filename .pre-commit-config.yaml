@@ -1,0 +1,43 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 3a569ca95749f562ff8b742e3568a077caeb5eb7
+    hooks:
+      - id: check-yaml
+        exclude: ^(conda\.recipe/meta\.yaml|conda_build/templates/.*\.yaml|docs/click/meta\.yaml|conda/meta\.yaml|conda/construct.yaml|.*\.pic\.yml|conda/constructor/Miniforge3/construct.yaml)
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: https://github.com/psf/black
+    rev: 6310a405f6663948f7e0b9411cb54e5db2b712a6
+    hooks:
+      - id: black
+        # exclude: '^gdsfactory/samples/notebooks/|^docs/notebooks/'
+
+  # - repo: https://github.com/codespell-project/codespell
+  #   rev: 38bc4a97f6e22827e86526148efa38f1044a97f8
+  #   hooks:
+  #     - id: codespell
+  #       additional_dependencies:
+  #         - tomli
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: "21ca293cbcc55df9b2f59446eaf55437337dd93c"
+    hooks:
+      - id: ruff
+        args: [ --fix, --exit-non-zero-on-fix ]
+
+  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.10.0
+    hooks:
+      - id: pretty-format-toml
+        args: [--autofix]
+
+  - repo: https://github.com/aristanetworks/j2lint.git
+    rev: v1.1.0
+    hooks:
+      - id: j2lint
+        args: [--ignore, jinja-statements-delimiter, jinja-statements-indentation, --]
+  # - repo: https://github.com/pre-commit/mirrors-prettier
+  #   rev: 'v3.0.2'  # Update this to the version you want
+  #   hooks:
+  #   -   id: prettier

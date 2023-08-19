@@ -1,10 +1,6 @@
-patch:
-	bumpversion patch
-	git push 
-	git push --tags
 
-release:
-	git push
-	git push origin --tags
+install:
+	pre-commit install
 
-.PHONY: patch
+update-pre:
+	pre-commit autoupdate --bleeding-edge

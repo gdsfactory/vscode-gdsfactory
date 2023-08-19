@@ -6,26 +6,17 @@
   },
   "built_in.abs=>int": {
     "prefix": "built_in.abs=>int",
-    "body": [
-      "x = abs(-7.25)",
-      "print(x)"
-    ],
+    "body": ["x = abs(-7.25)", "print(x)"],
     "description": "An example for using abs method"
   },
   "built_in.abs=>float": {
     "prefix": "built_in.abs=>float",
-    "body": [
-      "x = abs(-20)",
-      "print(x)"
-    ],
+    "body": ["x = abs(-20)", "print(x)"],
     "description": "An example for using abs method"
   },
   "built_in.abs=>complex": {
     "prefix": "built_in.abs=>complex",
-    "body": [
-      "x = abs((3 - 4j))",
-      "print(x)"
-    ],
+    "body": ["x = abs((3 - 4j))", "print(x)"],
     "description": "An example for using abs method"
   },
   "all": {
@@ -112,10 +103,7 @@
   },
   "built_in.ascii=>_1": {
     "prefix": "built_in.ascii=>_list_1",
-    "body": [
-      "x = ascii('My name is Ståle')",
-      "print(x)"
-    ],
+    "body": ["x = ascii('My name is Ståle')", "print(x)"],
     "description": "An example for using ascii"
   },
   "bin": {
@@ -125,11 +113,7 @@
   },
   "built_in.bin=>_1": {
     "prefix": "built_in.bin=>_1",
-    "body": [
-      "x = bin(36)",
-      "print(x)",
-      "# Result : 0b100100"
-    ],
+    "body": ["x = bin(36)", "print(x)", "# Result : 0b100100"],
     "description": "An example for using ascii"
   },
   "bool": {
@@ -139,11 +123,7 @@
   },
   "built_in.bool=>_1": {
     "prefix": "built_in.bool=>_1",
-    "body": [
-      "x = bool(1)",
-      "print(x)",
-      "# Result : True"
-    ],
+    "body": ["x = bool(1)", "print(x)", "# Result : True"],
     "description": "An example for using bool"
   },
   "bytearray": {
@@ -153,10 +133,7 @@
   },
   "built_in.bytearray=>_1": {
     "prefix": "built_in.bytearray=>_1",
-    "body": [
-      "x = bytearray(4)",
-      "print(x)"
-    ],
+    "body": ["x = bytearray(4)", "print(x)"],
     "description": "An example for using bool"
   },
   "bytes": {
@@ -166,10 +143,7 @@
   },
   "built_in.bytes=>_1": {
     "prefix": "built_in.bytes=>_1",
-    "body": [
-      "x = x = bytes(4)",
-      "print(x)"
-    ],
+    "body": ["x = x = bytes(4)", "print(x)"],
     "description": "An example for using bytes"
   },
   "callable": {
@@ -179,21 +153,12 @@
   },
   "built_in.callable=>_1": {
     "prefix": "built_in.callable=>_1",
-    "body": [
-      "def x():",
-      "a = 5",
-      "",
-      "print(callable(x))"
-    ],
+    "body": ["def x():", "a = 5", "", "print(callable(x))"],
     "description": "An example for using callable"
   },
   "built_in.callable=>_2": {
     "prefix": "built_in.callable=>_2",
-    "body": [
-      "x = 5",
-      "",
-      "print(callable(x))"
-    ],
+    "body": ["x = 5", "", "print(callable(x))"],
     "description": "An example for using bytes"
   },
   "chr": {
@@ -203,11 +168,7 @@
   },
   "built_in.chr=>_1": {
     "prefix": "built_in.chr=>_1",
-    "body": [
-      "x = chr(97)",
-      "",
-      "print(x)"
-    ],
+    "body": ["x = chr(97)", "", "print(x)"],
     "description": "An example for using bytes"
   },
   "classmethod": {
@@ -245,18 +206,12 @@
   },
   "built_in.complex=>_1": {
     "prefix": "built_in.complex=>_1",
-    "body": [
-      "x = complex(3, 5)",
-      "print(x)"
-    ],
+    "body": ["x = complex(3, 5)", "print(x)"],
     "description": "An example for using complex"
   },
   "built_in.complex=>_2": {
     "prefix": "built_in.complex=>_2",
-    "body": [
-      "x = complex('3+5j')",
-      "print(x)"
-    ],
+    "body": ["x = complex('3+5j')", "print(x)"],
     "description": "An example for using complex"
   },
   "delattr": {
@@ -313,10 +268,7 @@
   },
   "built_in.divmod=>_1": {
     "prefix": "built_in.divmod=>_1",
-    "body": [
-      "x = divmod(5, 2)",
-      "print(x)"
-    ],
+    "body": ["x = divmod(5, 2)", "print(x)"],
     "description": "An example for using divmod"
   },
   "enumerate": {
@@ -341,10 +293,7 @@
   },
   "built_in.eval=>_1": {
     "prefix": "built_in.eval=>_1",
-    "body": [
-      "x = 'print(55)'",
-      "eval(x)"
-    ],
+    "body": ["x = 'print(55)'", "eval(x)"],
     "description": "An example for using eval"
   },
   "exec": {
@@ -354,10 +303,7 @@
   },
   "built_in.exec=>_1": {
     "prefix": "built_in.exec=>_1",
-    "body": [
-      "x = 'age = 25\nprint(age)'",
-      "exec(x)"
-    ],
+    "body": ["x = 'age = 25\nprint(age)'", "exec(x)"],
     "description": "An example for using exec"
   },
   "filter": {
@@ -390,18 +336,12 @@
   },
   "built_in.float=>_1": {
     "prefix": "built_in.float=>_1",
-    "body": [
-      "x = float(3)",
-      "print(x)"
-    ],
+    "body": ["x = float(3)", "print(x)"],
     "description": "An example for using float"
   },
   "built_in.float=>_2": {
     "prefix": "built_in.float=>_2",
-    "body": [
-      "x = float('3.500')",
-      "print(x)"
-    ],
+    "body": ["x = float('3.500')", "print(x)"],
     "description": "An example for using float"
   },
   "format": {
@@ -411,18 +351,12 @@
   },
   "built_in.format=>_1": {
     "prefix": "built_in.format=>_1",
-    "body": [
-      "x = format(0.5, '%')",
-      "print(x)"
-    ],
+    "body": ["x = format(0.5, '%')", "print(x)"],
     "description": "An example for using format"
   },
   "built_in.format=>_1": {
     "prefix": "built_in.format=>_1",
-    "body": [
-      "x = format(255, 'x')",
-      "print(x)"
-    ],
+    "body": ["x = format(255, 'x')", "print(x)"],
     "description": "An example for using format"
   },
   "frozenset": {
@@ -475,18 +409,12 @@
   },
   "built_in.globals=>_1": {
     "prefix": "built_in.globals=>_1",
-    "body": [
-      "x = globals()",
-      "print(x)"
-    ],
+    "body": ["x = globals()", "print(x)"],
     "description": "An example for using globals"
   },
   "built_in.globals=>_2": {
     "prefix": "built_in.globals=>_2",
-    "body": [
-      "x = globals()",
-      "print(x['__file__'])"
-    ],
+    "body": ["x = globals()", "print(x['__file__'])"],
     "description": "An example for using globals"
   },
   "hasattr": {
@@ -525,10 +453,7 @@
   },
   "built_in.hex=>": {
     "prefix": "built_in.hex=>",
-    "body": [
-      "x = hex(255)",
-      "print(x)"
-    ],
+    "body": ["x = hex(255)", "print(x)"],
     "description": "An example for using hasattr"
   },
   "int": {
@@ -538,18 +463,12 @@
   },
   "built_in.int=>_1": {
     "prefix": "built_in.int=>_1",
-    "body": [
-      "x = int(3.5)",
-      "print(x)"
-    ],
+    "body": ["x = int(3.5)", "print(x)"],
     "description": "An example for using int"
   },
   "built_in.int=>_2": {
     "prefix": "built_in.int=>_2",
-    "body": [
-      "x = int('12')",
-      "print(x)"
-    ],
+    "body": ["x = int('12')", "print(x)"],
     "description": "An example for using int"
   },
   "id": {
@@ -575,10 +494,7 @@
   },
   "built_in.input=>_1": {
     "prefix": "built_in.input=>_1",
-    "body": [
-      "x = input('Enter your name:')",
-      "print('Hello, ' + x)"
-    ],
+    "body": ["x = input('Enter your name:')", "print('Hello, ' + x)"],
     "description": "An example for using input"
   },
   "built_in.input=>_2": {
@@ -597,11 +513,7 @@
   },
   "built_in.isinstance=>_1": {
     "prefix": "built_in.isinstance=>_1",
-    "body": [
-      "x = isinstance(5, int)",
-      "",
-      "print(x)"
-    ],
+    "body": ["x = isinstance(5, int)", "", "print(x)"],
     "description": "An example for using isinstance"
   },
   "built_in.isinstance=>_2": {
@@ -669,18 +581,12 @@
   },
   "built_in.len=>_1": {
     "prefix": "built_in.len=>_1",
-    "body": [
-      "mylist = ['apple', 'banana', 'cherry']",
-      "x = len(mylist)"
-    ],
+    "body": ["mylist = ['apple', 'banana', 'cherry']", "x = len(mylist)"],
     "description": "An example for using len"
   },
   "built_in.len=>_2": {
     "prefix": "built_in.len=>_2",
-    "body": [
-      "mylist = 'Hello'",
-      "x = len(mylist)"
-    ],
+    "body": ["mylist = 'Hello'", "x = len(mylist)"],
     "description": "An example for using len"
   },
   "list": {
@@ -690,10 +596,7 @@
   },
   "built_in.list=>": {
     "prefix": "built_in.list=>",
-    "body": [
-      "x = list(('apple', 'banana', 'cherry'))",
-      "print(x)"
-    ],
+    "body": ["x = list(('apple', 'banana', 'cherry'))", "print(x)"],
     "description": "An example for using list"
   },
   "locals": {
@@ -703,18 +606,12 @@
   },
   "built_in.locals=>_1": {
     "prefix": "built_in.locals=>_1",
-    "body": [
-      "x = locals()",
-      "print(x)"
-    ],
+    "body": ["x = locals()", "print(x)"],
     "description": "An example for using locals"
   },
   "built_in.locals=>_2": {
     "prefix": "built_in.locals=>_2",
-    "body": [
-      "x = locals()",
-      "print(x['__file__'])"
-    ],
+    "body": ["x = locals()", "print(x['__file__'])"],
     "description": "An example for using locals"
   },
   "map": {
@@ -753,27 +650,17 @@
   },
   "built_in.max=>_1": {
     "prefix": "built_in.max=>_1",
-    "body": [
-      "x = max(5, 10)",
-      "print(x)"
-    ],
+    "body": ["x = max(5, 10)", "print(x)"],
     "description": "An example for using max"
   },
   "built_in.max=>_2": {
     "prefix": "built_in.max=>_2",
-    "body": [
-      "x = max('Mike', 'John', 'Vicky')",
-      "print(x)"
-    ],
+    "body": ["x = max('Mike', 'John', 'Vicky')", "print(x)"],
     "description": "An example for using max"
   },
   "built_in.max=>_3": {
     "prefix": "built_in.max=>_3",
-    "body": [
-      "a = (1, 5, 3, 9)",
-      "x = max(a)",
-      "print(x)"
-    ],
+    "body": ["a = (1, 5, 3, 9)", "x = max(a)", "print(x)"],
     "description": "An example for using max"
   },
   "memoryview": {
@@ -802,27 +689,17 @@
   },
   "built_in.min=>_1": {
     "prefix": "built_in.min=>_1",
-    "body": [
-      "x = min(5, 10)",
-      "print(x)"
-    ],
+    "body": ["x = min(5, 10)", "print(x)"],
     "description": "An example for using min"
   },
   "built_in.min=>_2": {
     "prefix": "built_in.min=>_2",
-    "body": [
-      "x = min('Mike', 'John', 'Vicky')",
-      "print(x)"
-    ],
+    "body": ["x = min('Mike', 'John', 'Vicky')", "print(x)"],
     "description": "An example for using min"
   },
   "built_in.min=>_3": {
     "prefix": "built_in.min=>_3",
-    "body": [
-      "a = (1, 5, 3, 9)",
-      "x = min(a)",
-      "print(x)"
-    ],
+    "body": ["a = (1, 5, 3, 9)", "x = min(a)", "print(x)"],
     "description": "An example for using min"
   },
   "next": {
@@ -865,10 +742,7 @@
   },
   "built_in.object=>": {
     "prefix": "built_in.object=>",
-    "body": [
-      "x = object()",
-      "print(dir(x))"
-    ],
+    "body": ["x = object()", "print(dir(x))"],
     "description": "An example for using object"
   },
   "oct": {
@@ -878,10 +752,7 @@
   },
   "built_in.oct=>": {
     "prefix": "built_in.oct=>",
-    "body": [
-      "x = oct(12)",
-      "print(x)"
-    ],
+    "body": ["x = oct(12)", "print(x)"],
     "description": "An example for using oct"
   },
   "open": {
@@ -891,10 +762,7 @@
   },
   "built_in.open=>": {
     "prefix": "built_in.open=>",
-    "body": [
-      "f = open('demofile.txt', 'r')",
-      "print(f.read())"
-    ],
+    "body": ["f = open('demofile.txt', 'r')", "print(f.read())"],
     "description": "An example for using open"
   },
   "ord": {
@@ -904,10 +772,7 @@
   },
   "built_in.ord=>": {
     "prefix": "built_in.ord=>",
-    "body": [
-      "x=ord('a')",
-      "print(x)"
-    ],
+    "body": ["x=ord('a')", "print(x)"],
     "description": "An example for using ord"
   },
   "pow": {
@@ -917,10 +782,7 @@
   },
   "built_in.pow=>": {
     "prefix": "built_in.pow=>",
-    "body": [
-      "x=pow(2,5)",
-      "print(x)"
-    ],
+    "body": ["x=pow(2,5)", "print(x)"],
     "description": "An example for using pow"
   },
   "print": {
@@ -930,24 +792,17 @@
   },
   "built_in.print=>_1": {
     "prefix": "built_in.print=>_1",
-    "body": [
-      "print('Hello', 'how are you?')"
-    ],
+    "body": ["print('Hello', 'how are you?')"],
     "description": "An example for using print"
   },
   "built_in.print=>_2": {
     "prefix": "built_in.print=>_2",
-    "body": [
-      "x = ('apple', 'banana', 'cherry')",
-      "print(x)"
-    ],
+    "body": ["x = ('apple', 'banana', 'cherry')", "print(x)"],
     "description": "An example for using print"
   },
   "built_in.print=>_3": {
     "prefix": "built_in.print=>_3",
-    "body": [
-      "print('Hello', 'how are you?', sep=' ---')"
-    ],
+    "body": ["print('Hello', 'how are you?', sep=' ---')"],
     "description": "An example for using print"
   },
   "property": {
@@ -978,29 +833,17 @@
   },
   "built_in.range=>_1": {
     "prefix": "built_in.range=>_1",
-    "body": [
-      "x = range(6)",
-      "for n in x:",
-      "  print(n)"
-    ],
+    "body": ["x = range(6)", "for n in x:", "  print(n)"],
     "description": "An example for using range"
   },
   "built_in.range=>_2": {
     "prefix": "built_in.range=>_2",
-    "body": [
-      "x = range(3, 6)",
-      "for n in x:",
-      "  print(n)"
-    ],
+    "body": ["x = range(3, 6)", "for n in x:", "  print(n)"],
     "description": "An example for using range"
   },
   "built_in.range=>_3": {
     "prefix": "built_in.range=>_3",
-    "body": [
-      "x = range(3, 20, 2)",
-      "for n in x:",
-      "  print(n)"
-    ],
+    "body": ["x = range(3, 20, 2)", "for n in x:", "  print(n)"],
     "description": "An example for using range"
   },
   "repr": {
@@ -1030,18 +873,12 @@
   },
   "built_in.round=>_1": {
     "prefix": "built_in.round=>_1",
-    "body": [
-      "x = round(5.76543, 2)",
-      "print(x)"
-    ],
+    "body": ["x = round(5.76543, 2)", "print(x)"],
     "description": "An example for using round"
   },
   "built_in.round=>_2": {
     "prefix": "built_in.round=>_2",
-    "body": [
-      "x = round(5.76543)",
-      "print(x)"
-    ],
+    "body": ["x = round(5.76543)", "print(x)"],
     "description": "An example for using round"
   },
   "set": {
@@ -1051,10 +888,7 @@
   },
   "built_in.set=>": {
     "prefix": "built_in.set=>",
-    "body": [
-      "x = set(('apple', 'banana', 'cherry'))",
-      "print(x)"
-    ],
+    "body": ["x = set(('apple', 'banana', 'cherry'))", "print(x)"],
     "description": "An example for using set"
   },
   "setattr": {
@@ -1152,10 +986,7 @@
   },
   "built_in.str=>": {
     "prefix": "built_in.str=>",
-    "body": [
-      "x = str(3.5)",
-      "print(x)"
-    ],
+    "body": ["x = str(3.5)", "print(x)"],
     "description": "An example for using str"
   },
   "sum": {
@@ -1165,20 +996,12 @@
   },
   "built_in.sum=>_1": {
     "prefix": "built_in.sum=>_1",
-    "body": [
-      "a = (1, 2, 3, 4, 5)",
-      "x = sum(a)",
-      "print(x)"
-    ],
+    "body": ["a = (1, 2, 3, 4, 5)", "x = sum(a)", "print(x)"],
     "description": "An example for using sum"
   },
   "built_in.sum=>_2": {
     "prefix": "built_in.sum=>_2",
-    "body": [
-      "a = (1, 2, 3, 4, 5)",
-      "x = sum(a, 7)",
-      "print(x)"
-    ],
+    "body": ["a = (1, 2, 3, 4, 5)", "x = sum(a, 7)", "print(x)"],
     "description": "An example for using sum"
   },
   "super": {
@@ -1193,10 +1016,7 @@
   },
   "built_in.tuple=>": {
     "prefix": "built_in.tuple=>",
-    "body": [
-      "x = tuple(('apple', 'banana', 'cherry'))",
-      "print(x)"
-    ],
+    "body": ["x = tuple(('apple', 'banana', 'cherry'))", "print(x)"],
     "description": "An example for using tuple"
   },
   "type": {
@@ -1266,20 +1086,12 @@
   },
   "if": {
     "prefix": "if",
-    "body": [
-      "if condition:",
-      "  pass"
-    ],
+    "body": ["if condition:", "  pass"],
     "description": "if Statements"
   },
   "ifelif": {
     "prefix": "ifelif",
-    "body": [
-      "if condition:",
-      "  pass",
-      "elif condition:",
-      "  pass"
-    ],
+    "body": ["if condition:", "  pass", "elif condition:", "  pass"],
     "description": "if/else if Statements"
   },
   "ifelifelse": {
@@ -1296,20 +1108,12 @@
   },
   "ifel": {
     "prefix": "ifelse",
-    "body": [
-      "if condition:",
-      "  pass",
-      "else:",
-      "  pass"
-    ],
+    "body": ["if condition:", "  pass", "else:", "  pass"],
     "description": "if/else Statements"
   },
   "elif": {
     "prefix": "else",
-    "body": [
-      "else:",
-      "  pass"
-    ],
+    "body": ["else:", "  pass"],
     "description": "else Statements"
   },
   "ifshort": {
@@ -1324,10 +1128,7 @@
   },
   "for": {
     "prefix": "for",
-    "body": [
-      "for item in range:",
-      " "
-    ],
+    "body": ["for item in range:", " "],
     "description": "for Statements"
   },
   "for=>": {
@@ -1341,10 +1142,7 @@
   },
   "for=>through_a_string": {
     "prefix": "for=>through_a_string",
-    "body": [
-      "for x in 'banana':",
-      "  print(x)"
-    ],
+    "body": ["for x in 'banana':", "  print(x)"],
     "description": "An example for using for"
   },
   "for=>break_statement": {
@@ -1372,26 +1170,17 @@
   },
   "for=>range_function_1": {
     "prefix": "for=>range_function_1",
-    "body": [
-      "for x in range(6):",
-      " print(x)"
-    ],
+    "body": ["for x in range(6):", " print(x)"],
     "description": "An example for using for"
   },
   "for=>range_function_2": {
     "prefix": "for=>range_function_2",
-    "body": [
-      "for x in range(2, 6):",
-      " print(x)"
-    ],
+    "body": ["for x in range(2, 6):", " print(x)"],
     "description": "An example for using for"
   },
   "for=>range_function_3": {
     "prefix": "for=>range_function_3",
-    "body": [
-      "for x in range(2, 30, 3):",
-      " print(x)"
-    ],
+    "body": ["for x in range(2, 30, 3):", " print(x)"],
     "description": "An example for using for"
   },
   "for=>for_else": {
@@ -1417,30 +1206,17 @@
   },
   "while": {
     "prefix": "while",
-    "body": [
-      "while expression:",
-      "  pass"
-    ],
+    "body": ["while expression:", "  pass"],
     "description": "while Statements"
   },
   "while_else": {
     "prefix": "while_else",
-    "body": [
-      "while expression:",
-      "  pass",
-      "else:",
-      "  pass"
-    ],
+    "body": ["while expression:", "  pass", "else:", "  pass"],
     "description": "while Statements"
   },
   "while=>": {
     "prefix": "while=>",
-    "body": [
-      "i = 1",
-      "while i < 6:",
-      "  print(i)",
-      "  i += 1"
-    ],
+    "body": ["i = 1", "while i < 6:", "  print(i)", "  i += 1"],
     "description": "while Statements"
   },
   "while=>break_statement": {
@@ -1470,26 +1246,17 @@
   },
   "function": {
     "prefix": "function=>",
-    "body": [
-      "def name(args):",
-      " pass"
-    ],
+    "body": ["def name(args):", " pass"],
     "description": "Defining Function"
   },
   "def": {
     "prefix": "def=>",
-    "body": [
-      "def name(args):",
-      " pass"
-    ],
+    "body": ["def name(args):", " pass"],
     "description": "Defining Function"
   },
   "def=>with_default_value": {
     "prefix": "def=>with_default_value",
-    "body": [
-      "def name(name, lastName='john')",
-      " pass"
-    ],
+    "body": ["def name(name, lastName='john')", " pass"],
     "description": "Defining Function wqith default values"
   },
   "capitalize": {
@@ -1542,24 +1309,12 @@
   },
   "string.center=>_1": {
     "prefix": "string.center=>_1",
-    "body": [
-      "txt = 'banana'",
-      "",
-      "x = txt.center(20)",
-      "",
-      "print(x)"
-    ],
+    "body": ["txt = 'banana'", "", "x = txt.center(20)", "", "print(x)"],
     "description": "An example for using center"
   },
   "string.center=>_2": {
     "prefix": "string.center=>_2",
-    "body": [
-      "txt = 'banana'",
-      "",
-      "x = txt.center(20,'O')",
-      "",
-      "print(x)"
-    ],
+    "body": ["txt = 'banana'", "", "x = txt.center(20,'O')", "", "print(x)"],
     "description": "An example for using center"
   },
   "string.count": {
@@ -1596,13 +1351,7 @@
   },
   "string.encode=>": {
     "prefix": "string.encode=>",
-    "body": [
-      "txt = 'My name is Ståle'",
-      "",
-      "x = txt.encode()",
-      "",
-      "print()"
-    ],
+    "body": ["txt = 'My name is Ståle'", "", "x = txt.encode()", "", "print()"],
     "description": "An example for using encode"
   },
   "string.encode=>": {
@@ -1816,20 +1565,12 @@
   },
   "string.isalnum=>": {
     "prefix": "string.isalnum=>",
-    "body": [
-      "txt = 'Company12'",
-      "x = txt.isalnum()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Company12'", "x = txt.isalnum()", "print(x)"],
     "description": "An example for using isalnum"
   },
   "string.isalnum=>": {
     "prefix": "string.isalnum=>",
-    "body": [
-      "txt = 'Company 12'",
-      "x = txt.isalnum()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Company 12'", "x = txt.isalnum()", "print(x)"],
     "description": "An example for using isalnum"
   },
   "isalpha": {
@@ -1839,11 +1580,7 @@
   },
   "string.isalpha=>": {
     "prefix": "string.isalpha=>",
-    "body": [
-      "txt = 'Company10'",
-      "x = txt.isalpha()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Company10'", "x = txt.isalpha()", "print(x)"],
     "description": "An example for using isalpha"
   },
   "isdecimal": {
@@ -1877,11 +1614,7 @@
   },
   "string.isdigit=>": {
     "prefix": "string.isdigit=>",
-    "body": [
-      "txt = '50800'",
-      "x = txt.isdigit()",
-      "print(x)"
-    ],
+    "body": ["txt = '50800'", "x = txt.isdigit()", "print(x)"],
     "description": "An example for using isdigit"
   },
   "string.isdigit=>": {
@@ -1901,11 +1634,7 @@
   },
   "string.isidentifier=>": {
     "prefix": "string.isidentifier=>",
-    "body": [
-      "txt = 'Demo'",
-      "x = txt.isidentifier()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Demo'", "x = txt.isidentifier()", "print(x)"],
     "description": "An example for using isidentifier"
   },
   "string.isidentifier=>": {
@@ -1929,11 +1658,7 @@
   },
   "string.islower=>": {
     "prefix": "string.islower=>",
-    "body": [
-      "txt = 'hello world!'",
-      "x = txt.islower()",
-      "print(x)"
-    ],
+    "body": ["txt = 'hello world!'", "x = txt.islower()", "print(x)"],
     "description": "An example for using islower"
   },
   "string.islower=>": {
@@ -1955,11 +1680,7 @@
   },
   "string.isnumeric=>": {
     "prefix": "string.isnumeric=>",
-    "body": [
-      "txt = '565543'",
-      "x = txt.isnumeric()",
-      "print(x)"
-    ],
+    "body": ["txt = '565543'", "x = txt.isnumeric()", "print(x)"],
     "description": "An example for using isnumeric"
   },
   "string.isnumeric=>": {
@@ -1981,11 +1702,7 @@
   },
   "string.isprintable=>": {
     "prefix": "string.isprintable=>",
-    "body": [
-      "txt = 'Hello! Are you #1?'",
-      "x = txt.isprintable()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Hello! Are you #1?'", "x = txt.isprintable()", "print(x)"],
     "description": "An example for using isprintable"
   },
   "string.isprintable=>": {
@@ -2004,20 +1721,12 @@
   },
   "string.isspace=>": {
     "prefix": "string.isspace=>",
-    "body": [
-      "txt = '   '",
-      "x = txt.isspace()",
-      "print(x)"
-    ],
+    "body": ["txt = '   '", "x = txt.isspace()", "print(x)"],
     "description": "An example for using isspace"
   },
   "string.isspace=>": {
     "prefix": "string.isspace=>",
-    "body": [
-      "txt = '   s   '",
-      "x = txt.isspace()",
-      "print(x)"
-    ],
+    "body": ["txt = '   s   '", "x = txt.isspace()", "print(x)"],
     "description": "An example for using isspace"
   },
   "istitle": {
@@ -2055,11 +1764,7 @@
   },
   "string.isupper=>": {
     "prefix": "string.isupper=>",
-    "body": [
-      "txt = 'THIS IS NOW!'",
-      "x = txt.isupper()",
-      "print(x)"
-    ],
+    "body": ["txt = 'THIS IS NOW!'", "x = txt.isupper()", "print(x)"],
     "description": "An example for using isupper"
   },
   "string.isupper=>": {
@@ -2114,11 +1819,7 @@
   },
   "string.ljust=>": {
     "prefix": "string.ljust=>",
-    "body": [
-      "txt = 'banana'",
-      "x = txt.ljust(20, 'O')",
-      "print(x)"
-    ],
+    "body": ["txt = 'banana'", "x = txt.ljust(20, 'O')", "print(x)"],
     "description": "An example for using ljust"
   },
   "lower": {
@@ -2128,11 +1829,7 @@
   },
   "string.lower=>": {
     "prefix": "string.lower=>",
-    "body": [
-      "txt = 'Hello my FRIENDS'",
-      "x = txt.lower()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Hello my FRIENDS'", "x = txt.lower()", "print(x)"],
     "description": "An example for using lower"
   },
   "lstrip": {
@@ -2245,11 +1942,7 @@
   },
   "string.rfind=>": {
     "prefix": "string.rfind=>",
-    "body": [
-      "txt = 'Mi casa, su casa.'",
-      "x = txt.rfind('casa')",
-      "print(x)"
-    ],
+    "body": ["txt = 'Mi casa, su casa.'", "x = txt.rfind('casa')", "print(x)"],
     "description": "An example for using rfind"
   },
   "string.rfind=>": {
@@ -2286,11 +1979,7 @@
   },
   "string.rindex=>": {
     "prefix": "string.rindex=>",
-    "body": [
-      "txt = 'Mi casa, su casa.'",
-      "x = txt.rindex('casa')",
-      "print(x)"
-    ],
+    "body": ["txt = 'Mi casa, su casa.'", "x = txt.rindex('casa')", "print(x)"],
     "description": "An example for using rindex"
   },
   "string.rindex=>": {
@@ -2383,11 +2072,7 @@
   },
   "string.split=>": {
     "prefix": "string.split=>",
-    "body": [
-      "txt = 'welcome to the jungle'",
-      "x = txt.split()",
-      "print(x)"
-    ],
+    "body": ["txt = 'welcome to the jungle'", "x = txt.split()", "print(x)"],
     "description": "An example for using split"
   },
   "string.split=>": {
@@ -2485,29 +2170,17 @@
   },
   "string.title=>": {
     "prefix": "string.title=>",
-    "body": [
-      "txt = 'Welcome to my world'",
-      "x = txt.title()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Welcome to my world'", "x = txt.title()", "print(x)"],
     "description": "An example for using title"
   },
   "string.title=>": {
     "prefix": "string.title=>",
-    "body": [
-      "txt = 'Welcome to my 2nd world'",
-      "x = txt.title()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Welcome to my 2nd world'", "x = txt.title()", "print(x)"],
     "description": "An example for using title"
   },
   "string.title=>": {
     "prefix": "string.title=>",
-    "body": [
-      "txt = 'hello b2b2b2 and 3g3g3g'",
-      "x = txt.title()",
-      "print(x)"
-    ],
+    "body": ["txt = 'hello b2b2b2 and 3g3g3g'", "x = txt.title()", "print(x)"],
     "description": "An example for using title"
   },
   "translate": {
@@ -2536,11 +2209,7 @@
   },
   "string.upper=>": {
     "prefix": "string.upper=>",
-    "body": [
-      "txt = 'Hello my friends'",
-      "x = txt.upper()",
-      "print(x)"
-    ],
+    "body": ["txt = 'Hello my friends'", "x = txt.upper()", "print(x)"],
     "description": "An example for using upper"
   },
   "zfill": {
@@ -2550,11 +2219,7 @@
   },
   "string.zfill=>": {
     "prefix": "string.zfill=>",
-    "body": [
-      "txt = '50'",
-      "x = txt.zfill(10)",
-      "print(x)"
-    ],
+    "body": ["txt = '50'", "x = txt.zfill(10)", "print(x)"],
     "description": "An example for using zfill"
   },
   "append": {
@@ -2733,11 +2398,7 @@
   },
   "list.sort=>": {
     "prefix": "list.sort=>",
-    "body": [
-      "cars = ['Ford', 'BMW', 'Volvo']",
-      "cars.sort()",
-      "print(cars)"
-    ],
+    "body": ["cars = ['Ford', 'BMW', 'Volvo']", "cars.sort()", "print(cars)"],
     "description": "An example for using sort"
   },
   "list.sort=>": {
@@ -2780,18 +2441,12 @@
   },
   "list.comp=>_1": {
     "prefix": "list.comp=>_1",
-    "body": [
-      "x = [i for i in range(10)]",
-      "print(x)"
-    ],
+    "body": ["x = [i for i in range(10)]", "print(x)"],
     "description": "An example for using list comprehension"
   },
   "list.comp=>_2": {
     "prefix": "list.comp=>_2",
-    "body": [
-      "x = [x**2 for x in range(10)]",
-      "print(x)"
-    ],
+    "body": ["x = [x**2 for x in range(10)]", "print(x)"],
     "description": "An example for using list comprehension"
   },
   "list.comp=>_3": {
@@ -2814,10 +2469,7 @@
   },
   "list.comp=>_5": {
     "prefix": "list.comp=>_5",
-    "body": [
-      "x = [double(x) for x in range(10) if x%2==0]",
-      "print(x)"
-    ],
+    "body": ["x = [double(x) for x in range(10) if x%2==0]", "print(x)"],
     "description": "An example for using list comprehension"
   },
   "clear": {
@@ -3444,10 +3096,7 @@
   },
   "class": {
     "prefix": "class=>",
-    "body": [
-      "class MyClass:",
-      "  pass"
-    ],
+    "body": ["class MyClass:", "  pass"],
     "description": "python class"
   },
   "__init__": {
@@ -3461,11 +3110,7 @@
   },
   "__iter__": {
     "prefix": "__iter__=>",
-    "body": [
-      "def __iter__(self):",
-      "  self.a = 1",
-      "  return self"
-    ],
+    "body": ["def __iter__(self):", "  self.a = 1", "  return self"],
     "description": "__iter__ method"
   },
   "__next__": {
@@ -3505,10 +3150,7 @@
   },
   "ifmain": {
     "prefix": "ifmain",
-    "body": [
-      "if __name__ == '__main__':",
-      "  "
-    ],
+    "body": ["if __name__ == '__main__':", "  "],
     "description": "top level main module"
   },
   "tryexcept": {
@@ -3535,18 +3177,12 @@
   },
   "openFile": {
     "prefix": "file=>openFile",
-    "body": [
-      "f = open('demofile.txt', 'r')",
-      "print(f.read())"
-    ],
+    "body": ["f = open('demofile.txt', 'r')", "print(f.read())"],
     "description": "open a file"
   },
   "openFileReadLine": {
     "prefix": "file=>openFileReadLine",
-    "body": [
-      "f = open('demofile.txt', 'r')",
-      "print(f.readline())"
-    ],
+    "body": ["f = open('demofile.txt', 'r')", "print(f.readline())"],
     "description": "Read one line of the file"
   },
   "writeExistFile": {
@@ -3577,10 +3213,7 @@
   },
   "deleteFile": {
     "prefix": "file=>deleteFile",
-    "body": [
-      "#import os",
-      "os.remove('demofile.txt')"
-    ],
+    "body": ["#import os", "os.remove('demofile.txt')"],
     "description": "delete a file"
   },
   "class=>_1": {
