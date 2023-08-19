@@ -18,7 +18,6 @@ jobs:
       - name: Build
         id: build
         run: |
-          make build
           npm install -g @vscode/vsce
           npm install
           vsce package --no-rewrite-relative-links
