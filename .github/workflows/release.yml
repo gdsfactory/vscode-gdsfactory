@@ -8,13 +8,13 @@ on:
 jobs:
   build:
     name: Upload Release Asset
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
       - name: Build
         id: build
         run: |
