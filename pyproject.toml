@@ -1,0 +1,21 @@
+[tool.tbump]
+
+[[tool.tbump.file]]
+src = "package.json"
+
+[[tool.tbump.file]]
+src = "README.md"
+
+[[tool.tbump.file]]
+src = "package-lock.json"
+
+[tool.tbump.version]
+current = "0.1.3"
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  '''
+
